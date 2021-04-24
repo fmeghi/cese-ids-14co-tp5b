@@ -25,6 +25,10 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+/**
+ * @brief Estructuras con los datos de los alumnos.
+ * 
+ */
 static const struct alumno_s ESTEBAN_VOLENTINI = {
     .apellidos = "VOLENTINI",
     .nombres = "Esteban Daniel",
@@ -36,7 +40,10 @@ static const struct alumno_s FEDERICO_MEGHINASSO = {
     .nombres = "Federico Nicolas",
     .documento = "35.229.281",
 };
-
+/**
+ * @brief Vector con las estructuras con los datos de los alumnos.
+ * 
+ */
 const alumno_t ALUMNOS[] = {
     &ESTEBAN_VOLENTINI,
     &FEDERICO_MEGHINASSO,
